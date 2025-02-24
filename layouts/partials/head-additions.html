@@ -2,3 +2,5 @@
 {{ with resources.Get "scss/theme.scss" | css.Sass | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ end }}
+
+<script defer data-domain="ehri-kg.ehri-project.eu" src="https://plausible.io/js/script.js"></script>
